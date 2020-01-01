@@ -1,0 +1,525 @@
+body {
+ font-family: "Roboto", sans-serif; 
+}
+
+.home_banner_area {
+  z-index: 1;
+  min-height: 750px;
+  display: flex;
+  background-image: url("../img/home-banner.jpg");
+  background-size: cover;
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-color: rgba(3, 1, 10, 0.5);
+}
+
+.doante-causes-btn {
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+
+.see-banner-hand {
+  width: 80%;
+  position: absolute;
+  top: 45%;
+  left: 13%;
+  text-align: center;
+}
+
+.bnr-heading {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fdbb00;  
+}
+
+.bnr-heading-sub {
+  color: #ffffff;
+  margin-top: 0px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  line-height: 70px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.bnr-heading-sub-1 {
+  color: #f9f9ff;
+  max-width: 760px;
+  font-size: 17px;
+  margin: 0px auto 45px;  
+}
+
+.doante-btn {
+  background: #60bc0f;
+  padding: 0px 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 48px;
+  border: 1px solid #60bc0f;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 300ms linear 0s;
+}
+
+.yellow_btn {
+  background: #fdbb00 !important;
+  border: 1px solid #fdbb00 !important;
+  padding: 0px 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 48px;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 300ms linear 0s;
+  margin-left: 25px;
+}
+
+.majore-causes {
+  width: 86%;
+  margin: auto;
+  text-align: center;
+  color: #777777;
+}
+
+.majore-causes-cnt {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.give-donation {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.majore-causes p {
+  color:#777777
+}
+
+.dontion-cnt {
+  width: 75%;
+  margin: auto;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.majore-causes-box:hover {
+  box-shadow: 0px 20px 30px rgba(153, 153, 153, 0.2);
+}
+
+.our-majore-align {
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.majore-sub-heading {
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.majore-sub-cnt-bk {
+  background-color: #ffffff;
+  width: 50%;
+  padding: 50px 40px 60px 50px;
+  margin-left: -5%;
+  margin-top: 5%;
+  padding-top: 7%;
+}
+
+.majore-learn-more {
+  background-color: #60bc0f;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 50px;
+}
+
+.majore-sub-cnt-bk p {
+  color: #777777;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.majore-sub-cnt-align {
+  padding: 110px 0px;
+}
+
+.feature-cnt-heading {
+  padding: 0px 15px;
+  padding-top: 20px;
+}
+
+.feature-box-sub-hd {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.feature-box-cnt {
+  font-size: 15px;
+  color: #777777;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+.feature-cnt-price {
+  color: #777777;
+}
+
+.zero {
+  /*padding: 0px;*/
+}
+
+.zero-right {
+  text-align: right;
+}
+
+/*featured img*/
+.feature-donte-btn {
+  background-color: #60bc0f;
+  border: none;
+  color: #fff;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.feature-cnt-price-btn {
+  background-color: #60bc0f;
+  border: none;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 9px 20px 4px 20px;
+}
+
+.featured-card {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.featured-card img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.featured-card:hover img {
+  transform: scale(1.1);
+}
+
+.featured-card:hover .feature-cnt-price-btn {
+  color: #000;
+  background-color: #fdbb00;
+}
+
+.feature-goal-price {
+  color: #60bc0f;
+  font-size: 14px;
+}
+
+.feature-heart {
+  color: #60bc0f;
+  font-size: 16px;
+}
+
+.featured-bottom-align {
+  padding-bottom: 8%;
+}
+/*featured img*/
+
+.sub-feature-align {
+  margin-top: 10px;
+}
+
+/*--Upcoming Events--*/
+
+.upcoming-events-main-hd {
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.Upcoming-align-bottom {
+  padding-bottom: 90px;
+}
+
+
+.upcoming-events-main-hd h4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.upcoming-events-main-hd p {
+  width: 86%;
+  margin: auto;
+  text-align: center;
+  color: #777777;
+}
+
+.upcoming-events {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.upcoming-events img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.upcoming-events:hover img {
+  transform: scale(1.1);
+}
+
+.countdown {
+  font-size: 18px !important;
+  width: 100% !important;
+  height: 100px;
+  margin: 0px 10px !important;
+}
+
+.measurements {
+  color: white;
+  margin-right: 50px !important;
+  padding: 0px 10px;
+}
+
+.measurements.Days {
+  margin: 0px 15px;
+}
+
+.upcoming-event-lm {
+  margin-top: 5px;
+  background-color: #60bc0f;
+  color: #fff;
+  padding: 8px 25px;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.upcoming-events:hover .upcoming-events-sub-hd {
+  color: #60bc0f;
+}
+
+.upcoming-events:hover .upcoming-event-lm {
+  background-color: #fdbb00;
+  color: #000;
+}
+
+.upcoming-events-sub-hd {
+  font-size: 20px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+
+.measurements-number {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+countdown.countdown-timers {
+  font-size: 18px;
+}
+
+
+::ng-deep.measurements {
+  color: #222222;
+  margin-right: 5px;
+  padding: 10px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+::ng-deep.divider {
+  margin-top: 0px;
+  margin: 0px 25px;
+}
+
+::ng-deep.measurements-text {
+  font-size: 13px;
+  color: #777777;
+  font-weight: 400;
+}
+
+::ng-deep.measurements-number {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.date-counter-top-align {
+  margin-top:-17%;
+  height: 85px;
+}
+
+.row.counter-sc-align {
+  margin-top: 55px;
+}
+
+.sm-mov {
+  font-size: 18px;
+  color: #777777;
+  border: 1px solid #777777;
+  padding: 8px 0px;
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.sm-mov:hover {
+  color: #fff;
+  background-color: #60bc0f;
+  border: 1px solid #fff;
+}
+
+.voluteer-sub-heading h3 {
+  font-size: 19px;
+  font-weight:600;
+  color: #000;
+}
+
+.voluteer-sub-heading h6 {
+  font-size: 15px;
+  font-weight:400;
+  color: #777;
+}
+
+.voluteer-sub-img:hover .voluteer-sub-heading h3 {
+  color: #60bc0f;
+}
+
+.Voluteer-cnt {
+  font-size: 16px;
+  color: #777;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.row.social-media-icons-mov {
+  display: flex;
+  width: 90%;
+  margin:auto;
+}
+/*--Upcoming Events--*/
+
+/*--became a  voluteers--*/
+.meet-voluteer-hd {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.meet-voluteer-hd h4 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.meet-voluteer-bottom {
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+
+.meet-voluteer-hd p {
+  width: 86%;
+  margin: auto;
+  text-align: center;
+  color: #777777;
+}
+
+::ng-deep.become-bk {
+  background: #60bc0f;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  padding: 90px 0px;
+  margin-bottom: 40px;
+}
+
+
+.become-bk h3 {
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.become-bk p {
+  font-size: 15px;
+}
+
+.join-voluteer {
+  background-color: #fdbb00;
+  color: #000;
+  padding: 15px 30px;
+  border: #fdbb00;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.calendar {
+  border-right: 1px solid #777;
+  color: #777777;
+}
+
+.calendar-1 {
+  color: #777777;
+}
+
+.calendar-story {
+  font-size: 17px;
+  padding-right: 15px;
+}
+
+span.calendar-cnt {
+  font-size: 15px;
+}
+
+.calender-cmpny {
+  padding: 15px 0px;
+}
+
+.latest-ft-cmpny h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #222;
+  margin: 5px 0px;
+}
+
+.latest-ft-cmpny:hover.latest-ft-cmpny h3 {
+  color: #60bc0f;
+}
+
+
+.our-latest-story-align {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+
+/*--became a  voluteers--*/

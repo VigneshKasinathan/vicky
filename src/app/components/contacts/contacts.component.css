@@ -1,0 +1,106 @@
+.contact_banner_area h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+.contact_banner_area p {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.contact_banner_area {
+  min-height: 500px;
+  background-image: url("../contacts/banner.jpg");
+  background-size: cover;
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-color: rgba(3, 1, 10, 0.5);
+  padding: 7% 0%;
+}
+
+.contact-map {
+  margin: 90px 0px;
+  margin-bottom: 50px;
+}
+
+.country ul {
+  list-style-type: none;
+}
+
+.contact-sm-icons {
+  color: #60bc0f;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.country {
+  margin-bottom: 20%;
+}
+
+.country ul {
+  padding-left: 0px;
+}
+
+.icon-cnt {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.country-sub {
+  color: #777;
+  font-size: 14px;
+  padding-left: 27px;
+  padding-top: 2px;
+}
+
+ul.us-address {
+  padding-bottom: 7px;
+}
+
+.contact-shopping {
+  width: 360px;
+  height: 140px;
+  border: 1px solid #eeeeee;
+  color: #999;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+.form-shopping {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  color: #999;
+  padding: 5px 15px;
+  height: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+::placeholder {
+  color: #999;
+}
+
+.btn-shopping-contact {
+  background-color: #60bc0f;
+  color: #fff;
+  height: 45px;
+  padding: 5px 50px;
+  text-align: center;
+  border: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.address {
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+

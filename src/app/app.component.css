@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../app/components/fonts/Roboto-Regular.ttf");
+}
+
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  overflow-x: hidden;
+  width: 102%;
+}
+
+
+.countdown[_ngcontent-ncx-c3] .measurements[_ngcontent-ncx-c3] {
+  flex: 1;
+}
+
+
+span.divider {
+  margin: 0px 37px !important;
+}

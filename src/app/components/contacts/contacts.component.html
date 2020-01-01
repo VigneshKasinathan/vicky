@@ -1,0 +1,51 @@
+<div class="contact_banner_area">
+  <h2>Contact Us</h2>
+  <p>Platea nullam nostra laoreet potenti hendrerit laoreet enim nisl</p>
+</div>
+<div class="container">
+  <!--MAP-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3887.385974527921!2d77.55258171482235!3d13.011075190830065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1574745800089!5m2!1sen!2sin" width="1150" height="450" frameborder="0" style="border:0;" class="contact-map"></iframe>
+  <!--MAP-->
+
+  <div class="row address">
+
+    <div class="col-sm-4">
+      <div class="country">
+        
+        <ul class="us-address">
+          <li><i class="fa fa-home contact-sm-icons"></i><span class="icon-cnt">California, United States</span></li>
+          <li class="country-sub">Santa monica bullevard</li>
+        </ul>
+
+        <ul class="us-address">
+          <li><i class="fa fa-phone contact-sm-icons"></i><span class="icon-cnt">00 (440) 9865 562</span></li>
+          <li class="country-sub">Mon to Fri 9am to 6 pm</li>
+        </ul>
+
+        <ul class="us-address">
+          <li><i class="fa fa-envelope contact-sm-icons"></i><span class="icon-cnt">support@colorlib.com</span></li>
+          <li class="country-sub">Send us your query anytime!</li>
+        </ul>  
+   
+      </div>
+    </div>
+
+    <form (ngSubmit)="sendEmail()" method="POST" action="send">
+     
+      <div class="col-sm-4">
+        <input type="text" name="name" placeholder="Enter your name" class="img-responsive form-shopping"  [(ngModel)]="name" #nameInput="ngModel" required
+        >
+        <input type="email" name="email"  placeholder="Enter email address" class="img-responsive form-shopping" [(ngModel)]="email" #mailInput="ngModel" required>
+        <input type="text" name="info"  placeholder="Enter Subject" class="img-responsive form-shopping" [(ngModel)]="info" #messageInput="ngModel" required >
+      </div>
+      
+      <div class="col-sm-4 text-right">
+        <textarea class="contact-shopping" name="textarea" placeholder="Enter Message" [(ngModel)]="textarea" #textareaInput="ngModel" required></textarea>           
+        <button type="submit" class="btn-shopping-contact" (click)="exit()" >send message</button>
+      </div>
+    
+    </form>
+
+  </div>
+
+</div>
