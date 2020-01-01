@@ -23,7 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
     "@sweetalert2/ngx-sweetalert2": "^7.1.0",
     "@toverux/ngx-sweetalert2": "^4.0.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "cors": "^2.8.5",
     "jquery": "^3.4.1",
     "ng-sweet-alert": "^1.0.11",
